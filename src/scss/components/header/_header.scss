@@ -7,10 +7,11 @@
   align-items: center;
 
   min-height: 100vh;
+
   color: $color-white;
   background-color: $color-primary;
   background-image: url(../../../../assets/images/img-header.png);
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
