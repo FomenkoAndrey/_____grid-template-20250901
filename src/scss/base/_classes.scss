@@ -37,8 +37,21 @@
       min-height: 40px;
     }
   }
+
+  &--primary {
+    min-height: 60px;
+    border-color: $color-primary;
+    background-color: rgba($color-primary, 0.8);
+
+    @include sm-min {
+      min-width: 350px;
+    }
+    @include sm {
+      width: 100%;
+    }
+  }
 }
 
-.overflow-hidden {
+.visually-hidden {
   @include visually-hidden;
 }
